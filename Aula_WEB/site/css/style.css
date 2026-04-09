@@ -19,41 +19,77 @@
     width: 40%;
     height: auto;
 }
-
 nav {
     height: auto;
-    background-color: #001876;
+    background-color: #00187a;
     justify-content: center;
 }
+#menu {
+    list-style: none;
+    display: inline-flex;
+    justify-content: space-around;
+}
 
-/*#menu*/
+#menu li {
+    position: relative;
+    padding: 20px 30px;
+}
+
+#menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#menu li a:hover {
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+#menu li ul {
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    background-color: #00187a;
+    list-style: none;
+}
+
+#menu li:hover ul {
+    display: block;
+}
+
+#menu ol:hover ul {
+    display: block;
+}
+
+#menu li ul li {
+    display: block;
+    width: 140px;
+}
 
 #conteudo {
     min-height: 700px;
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
-  
 }
 
-section{
-    padding: 2% 10%;
+section {
+    padding: 3% 10%;
 }
-#imgindex{
+
+#imgindex {
     width: 70%;
     height: auto;
     margin: 0 auto;
     display: block;
 }
 
-#imgconteudo {
-    width: 40%;
-    height: auto;
-}
-
 h1 {
     text-align: center;
-    font-size: 3em;
+    font-size: 3rem;
 }
 
 #rodape {
@@ -65,49 +101,4 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.7em;
     height: 90px;
-}
-
-#menu {
-    list-style: none;
-    display: inline-flex;
-    justify-content: space-around;
-}
-
-#menu li{
-    position: relative;
-    padding: 20px 30px
-
-}
-
-#menu li a{
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #fff;
-}
-
-#menu li ul li {
-      display: block;
-      width: 140px;
-} 
-/**/
-#menu li a:hover{
-    text-decoration: underline;
-    transition: 0.5em;
-}
-
-/*ocultar submenu*/
-#menu li ul{
-    display: none;
-    position: absolute;
-    top: 40px;
-    left: 0;
-    list-style: nome;
-    background-color: #010a30;
-}
-
-/*exibir submenu*/
-
-#menu li:hover ul{
-    display: block;
-    color: #fff;
 }

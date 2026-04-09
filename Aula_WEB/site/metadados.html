@@ -1,48 +1,51 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8"> <!-- codificação de caracteres-->
     <meta name="description" content="Conteúdos sobre HTML">
-    <meta name="keywords" content="HTML, CSS, javascript, Web, Site">
-    <meta name="author" content="Fellipe dos santos">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Web, Site">
+    <meta name="author" content="Caio Henrique">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>Document</title>
+    <title>Metadados</title>
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
-    <header class= "flex-container" id="topo">
-        <img id="logo" src="imagem/logo_ub.png" alt="logo da universidade Brasil azul com fundo transparente">
+    <header class="flex-container" id="topo">
+        <img id="logo" src="imagem/logo_ub.png" alt="logo da universidade brasil azul com o fundo transparente">
     </header>
-       <nav class= "flex-container">
-            <ul id="menu">
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="comentarios.html">Comentarios</a></li>
-                <li><a href="layout.html">Layout</a></li>
-                <li><a href="#"></a>Listas
-                    <ul>
-                        <li><a href="ol.html">Lista ordenada</a></li>
-                        <li><a href="ul.html">Lista nao ordenada</a></li>
-                    </ul>
-                <li>
-                <a href="metadados.html">Metadados</a></li>
-            </ul>
-        </nav>
-        <main class= "flex-container">
-            <section>
-            <h1>METADADOS</h1>
-            <p>
-                Metadados são dados externos à página que são usado pelos navegadores
-                (como exibir conteúdo), pelos mecanismos de pesquisa (palavras-chave)
-                e outros serviços da web;
-            </p>
-            <p>
-                Eles são integrados à página HTML pela tag &it;meta&gt;;
-            </p>
-        </section>
-        </main>
-            <img src="imagem/metadados.png" alt="imagem de exemplo de metadados em html">
-        <footer class= "flex-container" id="rodape">
-            
-        </footer>
+    <nav class="flex-container">
+        <ul id="menu">
+            <li><a href="index.html">Inícios</a> </li>
+            <li><a href="comentarios.html">Comentários</a> </li>
+            <li><a href="layout.html">Layout</a> </li>
+            <li><a href="#">Listas</a>
+                <ul>
+                    <li><a href="ol.html">Lista Ordenada</a></li>
+                    <li><a href="ul.html">Lista não Ordenada</a></li>
+                </ul>
+            </li>
+            <li><a href="metadados.html">Metadados</a></li>
+        </ul>
+    </nav>
+    <main class="flex-container" id="conteudo">
+        <section>
+        <h1>
+            METADADOS
+        </h1>
+        <p>
+            Metadados são dados externos à página que são usados ​​pelos navegadores (como exibir conteúdo), pelos mecanismos de pesquisa (palavras-chave) e outros serviços da web;
+        </p>
+        <p>
+            Eles são integrados à página HTML pela tag &ltmeta&gt;
+        </p>
+        <img id="imgconteudo" src="imagem/metadados.png" alt="Imagem mostrando a sintaxe de metadados em HTML">
+        </section>        
+    </main>
+    <footer class="flex-container" id="rodape">
+        <p>
+            Todos os direitos reservados &copy; 2026
+        </p>
+    </footer>
+    
 </body>
 </html>

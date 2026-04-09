@@ -1,47 +1,51 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8"> <!-- codificação de caracteres-->
     <meta name="description" content="Conteúdos sobre HTML">
-    <meta name="keywords" content="HTML, CSS, javascript, Web, Site">
-    <meta name="author" content="Fellipe dos santos">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Web, Site">
+    <meta name="author" content="Caio Henrique">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>Document</title>
+    <title>Lista Ordenada</title>
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
-    <header class= "flex-container" id="topo">
-        <img src="imagem/logo_ub.png" alt="logo da universidade Brasil azul com fundo transparente">
+    <header class="flex-container" id="topo">
+        <img id="logo" src="imagem/logo_ub.png" alt="logo da universidade brasil azul com o fundo transparente">
     </header>
-       <nav class= "flex-container">
-            <ul id="menu">
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="comentarios.html">Comentarios</a></li>
-                <li><a href="layout.html">Layout</a></li>
-                <li><a href="#"></a>Listas
-                    <ul>
-                        <li><a href="ol.html"></a>Lista ordenada</li>
-                        <li><a href="ul.html">Lista nao ordenada</a></li>
-                    </ul>
-                <li>
-                <a href="metadados.html">Metadados</a></li>
-            </ul>
-        </nav>
-        <main class= "flex-container">
-            <section>
-            <h1>LISTA ORDENADA</h1>
-            <p>
-                Uma lista ordenada começa com a tag &it;ol&gt;.
-                Cada item da lista começa com a tag &it;li&gt;
-            </p>
-            <p>
-                Os itens da lista serão marcados com números por padrão:
-            </p>
+    <nav class="flex-container">
+        <ul id="menu">
+            <li><a href="index.html">Inícios</a> </li>
+            <li><a href="comentarios.html">Comentários</a> </li>
+            <li><a href="layout.html">Layout</a> </li>
+            <li><a href="#">Listas</a>
+                <ul>
+                    <li><a href="ol.html">Lista Ordenada</a></li>
+                    <li><a href="ul.html">Lista não Ordenada</a></li>
+                </ul>
+            </li>
+            <li><a href="metadados.html">Metadados</a></li>
+        </ul>
+    </nav>
+    <main class="flex-container" id="conteudo">
+        <section>
+        <h1>
+            LISTA ORDENADA
+        </h1>
+        <p>
+            Uma lista ordenada começa com a tag &ltol&gt. Cada item da lista começa com a tag &ltli&gt.
+        </p>
+        <p>
+            Os itens da lista serão marcados com números por padrão:
+        </p>
+        <img id="imgconteudo" src="imagem/lista_ordenada.jpg" alt="Imagem mostrando a sintaxe de lista ordenada em HTML">
         </section>
-        </main>
-            <img src="imagem/lista_ordenada.jpg" alt="imagem de exemplo de lista ordenada em html">
-        <footer class= "flex-container" id="rodape">
-            
-        </footer>
+    </main>
+    <footer class="flex-container" id="rodape">
+        <p>
+            Todos os direitos reservados &copy; 2026
+        </p>
+    </footer>
+    
 </body>
 </html>
